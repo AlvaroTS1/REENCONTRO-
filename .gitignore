@@ -9,3 +9,4 @@ dist-ssr
 
 # config local de preview (caminho absoluto, não portátil)
 .claude/
+*.tsbuildinfo

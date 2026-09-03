@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+.DS_Store
+*.local
+.vscode/*
+!.vscode/extensions.json
+.vercel
+
+# config local de preview (caminho absoluto, não portátil)
+.claude/

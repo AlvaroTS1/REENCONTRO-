@@ -1,0 +1,31 @@
+FOTOGRAFIAS DA CRISTINA
+=======================
+
+Coloque os quatro arquivos nesta pasta, com EXATAMENTE estes nomes:
+
+  cristina-hero.jpg       -> Hero (topo do site).
+                             Foto colorida, ambiente claro, sorriso.
+                             Enquadramento vertical 4:5.
+
+  cristina-sobre.jpg      -> Seção "Cristina".
+                             Foto de corpo inteiro / ambiente de atendimento.
+                             Enquadramento vertical 4:5.
+
+  cristina-editorial.jpg  -> Seção "Reencontro".
+                             Retrato preto e branco, fundo escuro.
+
+  cristina-final.jpg      -> Seção final "E se você começasse por você?".
+                             Retrato preto e branco, fundo escuro.
+
+Recomendações de preparo
+------------------------
+- Formato: .jpg (ou troque a extensão em src/config/site.ts).
+- Largura ideal: entre 1200 e 1600 px. Acima disso só pesa o carregamento.
+- Peso ideal: até ~250 KB por foto.
+- Não aplicar filtros fortes; o site já cuida do acabamento visual.
+
+Enquanto os arquivos não estiverem aqui, o site mostra um marcador
+discreto no lugar de cada foto — nada quebra.
+
+O recorte de cada foto (object-position) pode ser ajustado no
+componente de cada seção, em src/sections/, na propriedade "posicao".

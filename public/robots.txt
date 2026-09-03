@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://reencontro-cristina.vercel.app/sitemap.xml

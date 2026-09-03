@@ -11,7 +11,7 @@
    Enquanto estiver vazio, os botões mostram um aviso discreto
    em vez de abrirem um link inválido.
    ------------------------------------------------------------- */
-export const WHATSAPP_NUMERO = '' // <-- INSIRA O NÚMERO AQUI
+export const WHATSAPP_NUMERO = '5554999562169' // 55 + DDD 54 + 99956-2169
 
 /** Mensagem que já vem escrita quando a pessoa abre a conversa. */
 export const WHATSAPP_MENSAGEM =

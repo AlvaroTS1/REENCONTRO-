@@ -11,7 +11,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'favicon.png', 'robots.txt', 'icons/apple-touch-icon.png'],
       manifest: {
-        name: 'Cristina · Programa Reencontro',
+        name: 'Cristina Vedana · Programa Reencontro',
         short_name: 'Reencontro',
         description:
           'Um espaço de acolhimento, escuta e cuidado. Quatro encontros para voltar a olhar para você.',

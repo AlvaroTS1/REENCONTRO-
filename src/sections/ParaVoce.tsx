@@ -1,4 +1,6 @@
 import { paraVoce as texto } from '../config/content'
+import { fotos } from '../config/site'
+import { Foto } from '../components/Foto'
 import { Reveal } from '../components/Reveal'
 
 export function ParaVoce() {
@@ -6,11 +8,24 @@ export function ParaVoce() {
     <section className="bg-marfim py-20 md:py-28 lg:py-32" aria-labelledby="titulo-para-voce">
       <div className="container-editorial">
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
-          <Reveal>
-            <h2 id="titulo-para-voce" className="titulo-secao max-w-md text-balance">
-              {texto.titulo}
-            </h2>
-          </Reveal>
+          <div>
+            <Reveal>
+              <h2 id="titulo-para-voce" className="titulo-secao max-w-md text-balance">
+                {texto.titulo}
+              </h2>
+            </Reveal>
+
+            <Reveal atraso={160}>
+              <div className="mt-10 aspect-[4/5] overflow-hidden rounded-[1.75rem] bg-creme shadow-[0_12px_40px_-20px_rgba(35,32,29,0.3)]">
+                <Foto
+                  src={fotos.closeup.src}
+                  alt={fotos.closeup.alt}
+                  posicao="50% 25%"
+                  sizes="(min-width: 1024px) 40vw, 92vw"
+                />
+              </div>
+            </Reveal>
+          </div>
 
           <div>
             <ul className="space-y-0">

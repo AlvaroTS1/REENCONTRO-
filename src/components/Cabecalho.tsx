@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { navegacao } from '../config/content'
-import { site } from '../config/site'
+import { site, fotos } from '../config/site'
 import { BotaoContato } from './BotaoContato'
 
 export function Cabecalho() {
@@ -52,15 +52,18 @@ export function Cabecalho() {
         <div className="container-editorial flex h-[4.5rem] items-center justify-between gap-6 md:h-20">
           <a
             href="#inicio"
-            className="flex flex-col leading-none"
-            aria-label={`${site.nome} — Programa Reencontro, início`}
+            className="flex items-center"
+            aria-label={`${site.nome} — Terapeuta Integrativa, início`}
           >
-            <span className="font-display text-2xl tracking-wide text-tinta md:text-[1.7rem]">
-              {site.nome}
-            </span>
-            <span className="mt-1 text-[0.6rem] font-medium uppercase tracking-[0.32em] text-nevoa">
-              Programa {site.marca}
-            </span>
+            <picture>
+              <source srcSet="/cristina/logo-vedana.webp" type="image/webp" />
+              <img
+                src={fotos.logo.src}
+                alt={fotos.logo.alt}
+                className="h-11 w-auto md:h-[3.2rem]"
+                draggable={false}
+              />
+            </picture>
           </a>
 
           <nav aria-label="Navegação principal" className="hidden items-center gap-6 lg:flex xl:gap-7">
@@ -110,7 +113,15 @@ export function Cabecalho() {
         hidden={!aberto}
       >
         <div className="container-editorial flex h-[4.5rem] items-center justify-between">
-          <span className="font-display text-2xl text-tinta">{site.nome}</span>
+          <picture>
+              <source srcSet="/cristina/logo-vedana.webp" type="image/webp" />
+              <img
+                src={fotos.logo.src}
+                alt={fotos.logo.alt}
+                className="h-10 w-auto"
+                draggable={false}
+              />
+            </picture>
           <button
             type="button"
             onClick={() => setAberto(false)}

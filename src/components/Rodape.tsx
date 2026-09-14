@@ -12,7 +12,7 @@ export function Rodape() {
           <div>
             <p className="font-display text-2xl tracking-wide text-marfim">{site.nome}</p>
             <p className="mt-2 text-[0.7rem] uppercase tracking-[0.28em] text-marfim/60">
-              Programa {site.marca}
+              Terapeuta Integrativa
             </p>
             <p className="mt-5 max-w-xs text-[0.9rem] leading-relaxed">{site.tagline}</p>
           </div>

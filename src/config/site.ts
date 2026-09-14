@@ -18,9 +18,9 @@ export const WHATSAPP_MENSAGEM =
   'Olá, Cristina! Conheci o Programa Reencontro e gostaria de saber mais.'
 
 export const site = {
-  nome: 'Cristina',
+  nome: 'Cristina Vedana',
   /** Nome completo — preencher quando informado. */
-  nomeCompleto: 'Cristina',
+  nomeCompleto: 'Cristina Vedana',
   marca: 'Reencontro',
   tagline: '4 encontros para voltar a olhar para você.',
 
@@ -28,9 +28,9 @@ export const site = {
   url: 'https://reencontro-cristina.vercel.app',
 
   seo: {
-    title: 'Reencontro · Cristina — 4 encontros para voltar a olhar para você',
+    title: 'Reencontro · Cristina Vedana — 4 encontros para voltar a olhar para você',
     description:
-      'Um espaço de acolhimento, escuta e cuidado para desacelerar, se ouvir e abrir espaço para novas escolhas. Conheça o Programa Reencontro com Cristina.',
+      'Um espaço de acolhimento, escuta e cuidado para desacelerar, se ouvir e abrir espaço para novas escolhas. Conheça o Programa Reencontro com Cristina Vedana.',
     ogImage: '/og-image.jpg',
   },
 
@@ -68,6 +68,14 @@ export const fotos = {
   final: {
     src: '/cristina/cristina-final.jpg',
     alt: 'Retrato em preto e branco de Cristina, de braços cruzados, com expressão serena.',
+  },
+  closeup: {
+    src: '/cristina/cristina-closeup.jpg',
+    alt: 'Retrato close-up de Cristina Vedana, com um olhar acolhedor e sorriso suave.',
+  },
+  logo: {
+    src: '/cristina/logo-vedana.png',
+    alt: 'Cristina Vedana — Terapias Alternativas',
   },
 } as const
 

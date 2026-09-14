@@ -64,7 +64,7 @@ export const reencontro = {
     {
       numero: '03',
       nome: 'Escolher',
-      frase: 'Nem toda escolha precisa agradar o mundo. Algumas precisam fazer sentido para você.',
+      frase: 'As suas escolhas não devem ser direcionadas a agradar os outros. Devem sim, fazer sentido para você, devem ser coerentes com o seu momento e com a sua evolução.',
       descricao:
         'O que você quer? O que você não quer mais? Onde você tem se colocado em segundo plano? Que espaço você deseja ocupar na sua própria vida?',
       intencao: 'Recuperar consciência sobre suas escolhas.',
@@ -120,7 +120,7 @@ export const paraVoce = {
 
 export const cristina = {
   eyebrow: 'Quem conduz',
-  titulo: 'Cristina',
+  titulo: 'Cristina Vedana',
   citacao:
     'Eu acredito que, muitas vezes, o primeiro passo para uma mudança é simplesmente ter um espaço onde possamos ser nós mesmos.',
   /* ---------------------------------------------------------
